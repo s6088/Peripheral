@@ -41,8 +41,8 @@ void loop()
       {
         latitude = gps.location.lat();
         longitude = gps.location.lng();
-        Firebase.setFloat ("buses/1/latitude" , latitude );
-        Firebase.setFloat ("buses/1/longitude" , longitude );
+        Firebase.setFloat ("buses/e2Aar2z3RhOEtm2p1Pm0biTI3Rv2/latitude" , latitude );
+        Firebase.setFloat ("buses/e2Aar2z3RhOEtm2p1Pm0biTI3Rv2/longitude" , longitude );
       }
     }
 
